@@ -68,7 +68,7 @@
   }
 }
 .inputSt {
-  width: 400px;
+  width: 80vw;
   border: 3px solid #f5c518;
   background-color: #f0f0f0;
   border-radius: 5px;
@@ -97,4 +97,16 @@
 }
 .imgSt {
   border: 2px solid #f5c518;
+}
+
+@media screen and (min-width: 700px) {
+  .inputSt {
+    width: 50vw;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  .inputSt {
+    width: 30vw;
+  }
 }
