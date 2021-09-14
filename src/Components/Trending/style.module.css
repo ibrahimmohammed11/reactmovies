@@ -1,0 +1,15 @@
+.btnSt {
+  border: 1px solid #fff;
+  background-color: transparent;
+  border-radius: 20px;
+  color: #f5c518;
+  margin-bottom: 10px;
+}
+
+.btnSt:hover {
+  border: 1px solid #f5c518;
+  background-color: transparent;
+  border-radius: 20px;
+  color: #fff;
+  margin-bottom: 10px;
+}

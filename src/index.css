@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap");
+body {
+  font-family: "Comic Neue", cursive;
+
+  background-color: #151c26;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*--------------------------- star ---------------------- */
+.clip-star {
+  background: gold;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+}
+/*--------------------------- star ---------------------- */
+/*--------------------------- General ---------------------- */
+.brbr {
+  background-color: #f5c518;
+  height: 1px;
+}
+.mainColor {
+  color: #f5c518;
+}
+.secondColor {
+  color: #fff;
+}
+/*--------------------------- General ---------------------- */
+.list-inline-item .btn-outline-info {
+  color: #5a606b;
+  border: 1px solid #5a606b;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  font-weight: 500;
+}
+.list-inline-item .btn-outline-info:hover {
+  color: #ffffff;
+  border-color: #ffffff;
+  background-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.fa-arrow-alt-circle-right {
+  color: #f4c10f;
+  font-size: 40px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.fa-arrow-alt-circle-right:hover {
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+.mColor {
+  color: #f5c518;
+}

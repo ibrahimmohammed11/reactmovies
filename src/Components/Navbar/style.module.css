@@ -1,0 +1,28 @@
+.navColor {
+  background-color: transparent;
+}
+.colorSt {
+  color: #f5c518;
+}
+.colorSt:hover {
+  color: #f5c518;
+}
+.nameSt {
+  background-color: #293250;
+  color: #f5c518;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .nameSt {
+    background-color: #293250;
+    color: #f5c518;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    padding: 8px;
+  }
+}
