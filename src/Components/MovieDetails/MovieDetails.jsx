@@ -58,6 +58,7 @@ export default class MovieDetails extends Component {
     };
     render() {
         let { SimilarMovie, getMovieCast, details, genres, isOpen, MovieVideo } = this.state;
+        console.log(details.homepage);
         const MoviePalyerModal = (props) => {
             const youtubeUrl = "https://www.youtube.com/watch?v=";
             return (
@@ -173,7 +174,10 @@ export default class MovieDetails extends Component {
                             </div>
                             <div className="col-md-3">
                                 <p className="font-weight-bold mColor">HOMEPAGE</p>
-                                <a className="text-white" href={details.homepage} target="_blank" rel="noreferrer">{details.homepage}</a>
+                                {details.homepage && <a className={`${Styles.btnStyle} btn`} href={details.homepage} target="_blank" rel="noreferrer">
+                                    MOVIE HOMEPAGE
+                                    </a>
+                                }
                             </div>
                         </div>
                         <div className="row mt-3">

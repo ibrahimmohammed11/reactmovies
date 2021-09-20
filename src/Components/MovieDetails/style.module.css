@@ -87,7 +87,10 @@
   font-size: 16px;
   bottom: -20px !important;
 }
-
+.btnStyle {
+  background-color: #f5c518;
+  color: #fff;
+}
 @media screen and (min-width: 500px) {
   .iconStyle {
     font-size: 70px;
